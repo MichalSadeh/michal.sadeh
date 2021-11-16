@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(213, 213, 252);
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 60px; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+}
+
+#gridcontainer{
+    display: grid;
+    grid-template-areas:
+    'header header main main'
+    'left left right right'
+}
+
+#item1 {
+    grid-area: header;
+    height: 100px;
+    width: 900px;
+    padding:20px;
+    margin: 10px;
+    background-color: white;
+    color: rgb(194, 79, 79);
+    border: 2px solid black;
+    font-size: 30px; 
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+#item2 {
+    grid-area: main;
+    height: 100px;
+    width: 900px;
+    padding:20px;
+    margin: 10px;
+    background-color: white;
+    color: rgb(194, 79, 79);
+    border: 2px solid black;
+    font-size: 30px; 
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+#item3 {
+    grid-area: left;
+    height: 100px;
+    width: 900px;
+    padding:20px;
+    margin: 10px;
+    background-color: white;
+    color: rgb(194, 79, 79);
+    border: 2px solid black;
+    font-size: 30px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#item4 {
+    grid-area: right;
+    height: 100px;
+    width: 900px;
+    padding:20px;
+    margin: 10px;
+    background-color: white;
+    color: rgb(194, 79, 79);
+    border: 2px solid black;
+    font-size: 30px; 
+    font-family:Arial, Helvetica, sans-serif;  
+}
+
+@media only screen and (max-width:1000px) {
+    body {
+       background-color: burlywood
+    }
+}
